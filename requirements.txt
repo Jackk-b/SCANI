@@ -1,0 +1,22 @@
+#Any imports etc to be put in here with versions
+
+#commands i ran ( ignore for now ) 
+# npx expo install expo-camera expo-file-system
+# npm install --save-dev @types/react
+#npx expo install react-native-reanimated-carousel
+#npx expo install react-native-reanimated react-native-gesture-handler
+#npx expo install @react-native-async-storage/async-storage
+#npx expo install react-native-snap-carousel
+# npx expo install react-native-pager-view
+# npx expo install expo-linear-gradient
+# npx expo install @expo/vector-icons
+
+
+
+# Expo libraries
+expo-camera
+expo-file-system
+
+# TypeScript types
+@types/react
+

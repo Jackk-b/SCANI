@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "clothingrecommenderapp",
+    "slug": "clothingrecommenderapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/scanisplash.png",
+    "scheme": "clothingrecommenderapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "icon": "./assets/images/scanisplash.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/scanisplash.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/scanisplash.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/scanisplash.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      "expo-asset",
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
